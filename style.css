@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  --main-theme-color: #262626;
+}
+header {
+  min-width: 100vh;
+  min-height: 10vh;
+  background-color: var(--main-theme-color);
+}
+.left-top-title {
+  color: white;
+  font-size: 1.5em;
+}
+.header-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo-font-family {
+  font-family: "Dancing Script", cursive;
+}
+.nav-items > a {
+  padding: 10px;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+.nav-font-family {
+  font-family: "Oswald", sans-serif;
+}
+.support-button {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1em;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color: var(--main-theme-color);
+  color: white;
+}
+.support-button:hover {
+  background-color: white;
+  color: var(--main-theme-color);
+}
+img {
+  display: block;
+  min-width: 100%;
+  min-height: 100vh;
+}
